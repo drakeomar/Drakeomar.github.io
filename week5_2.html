@@ -10,12 +10,25 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <style>
-            #week-list{
-                margin: 5rem; 
+            main{
+                display: flex;
+                flex-direction: column; 
+                align-items: center;
+                margin-top: 5em;
+                padding: 2em;
+            }
+            #youtube{
+                margin: 3em; 
+            }
+            #week-num{
+                margin: 1em;
+                padding: 1em;
+            }
+            hr{
+                width: 100%;
             }
         </style>
     </head>
-    
     <body>
         <header>
             <div class="nav-wrapper">
@@ -43,28 +56,26 @@
                         <a class="non-icon" href="/"><p> Home </p></a>
                         <a class="non-icon" href="/professional_experience.html"> <p> Work Experience </p></a>
                         <a class="non-icon" href="/art_projects.html"> <p> Art Endeavors </p></a>
-                        <a class="non-icon" href="/teaching.html"><p> Teaching </p></a>
+                        <a class="non-icon" href="/teaching.html"><p>Teaching</p></a>
                         <a class="non-icon" href="/contact.html"> <p> Contact </p> </a>
                     </div>
                 </nav>
             </div>
         </header>
         <main>
-           <section id="week-list">
-                <ul>
-                    <li><a href="/week1.html">Week 1</a></li>
-                    <li><a href="/week3_1.html"> Week 3 Video 1</a></li>
-                    <li><a href="/week3_2.html"> Week 3 Video 2</a></li>
-                    <li><a href="/week4.html"> Week 4 </a></li>
-                    <li><a href="/week4_parson.html"> Week 4 Parson's Problem </a></li>
-                </ul>
-           </section>
+            <h2 id="week-num"> Week 4 Project </h2>
+            <hr>
+            <section id="youtube">
+                <!-- VIDEO -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yi-upyWqAyU?si=zJvJXJOl-xG3bCAr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
         </main>
         <footer>
             <h3> Get in Contact with Me! </h3>
             <p> Access the <b><span class="highlight"> <a href="/contact.html"> Contact Page </a></span> </b></p>
             <p> <em>OR reach me by...</em></p>
             <p><b> Email: </b> <a href="mailto:drakeomar@icloud.com"> drakeomar@icloud.com </a> </p>
+            <h6> (WIP: This website is adapted from an out-of-date portfolio site @ portfolio.drakeomar.com so I apologize for bugs lol) </h6>
         </footer>
     </body>    
 </html>
